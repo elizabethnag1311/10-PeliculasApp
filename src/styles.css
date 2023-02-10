@@ -15,14 +15,18 @@ hr{
   color: white;
 }
 
+a {
+  color: rgb(99, 82, 193) !important;
+}
+
 .navbar-brand {
   font-weight: 200;
-  color: #bd4c5f !important;
+  color: #21e0c0 !important;
 }
 
 .btn-outline-success {
-  border-color: #bd4c5f !important;;
-  color: #bd4c5f !important;;
+  border-color: #21e0c0!important;;
+  color: #21e0c0 !important;;
 }
 
 .btn-outline-success:hover {
