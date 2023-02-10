@@ -9,11 +9,7 @@ import { PeliculasService } from './services/peliculas.service';
 export class AppComponent {
   title = 'PeliculasApp';
 
-  constructor( private peliculasService: PeliculasService) {
+  constructor() {
 
-    this.peliculasService.getCartelera()
-        .subscribe( resp => {
-          console.log( resp );  
-        })
   }
 }
