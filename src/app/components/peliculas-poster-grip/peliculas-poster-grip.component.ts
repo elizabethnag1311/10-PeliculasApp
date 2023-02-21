@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Movie } from 'src/app/interfaces/CarteleraResponse';
+import {NgbRatingConfig} from '@ng-bootstrap/ng-bootstrap';
 
 
 @Component({
@@ -11,9 +12,12 @@ export class PeliculasPosterGripComponent implements OnInit {
   
   @Input() movies!: Movie[];
 
-  constructor() {}
+  constructor( config: NgbRatingConfig ) {
+    config.max = 10;
+    config.readonly = true;
+  }
 
-  ngOnInit(): void {
+  ngOnInit() {
     console.log( this.movies);
   }
 
