@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { PeliculasPosterGripComponent } from './peliculas-poster-grip/peliculas-poster-grip.component';
 
+import { PipesModule } from "../pipes/pipes.module";
+
 
 
 @NgModule({
@@ -23,7 +25,8 @@ import { PeliculasPosterGripComponent } from './peliculas-poster-grip/peliculas-
   imports: [
     CommonModule,
     RouterModule,
-    NgbModule
+    NgbModule,
+    PipesModule
   ]
 })
 export class ComponentsModule { }
