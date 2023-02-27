@@ -1,0 +1,11 @@
+
+.poster{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(63, 100, 143, 0.671);
+  margin: 5px;
+}
+
+ngb-rating{
+  color: gold;
+  font-size: 14px;
+}
