@@ -8,6 +8,7 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
 import { PeliculasPosterGripComponent } from './peliculas-poster-grip/peliculas-poster-grip.component';
 
 import { PipesModule } from "../pipes/pipes.module";
+import { CastSlideshowComponent } from './cast-slideshow/cast-slideshow.component';
 
 
 
@@ -15,12 +16,14 @@ import { PipesModule } from "../pipes/pipes.module";
   declarations: [
     NavbarComponent,
     SlideshowComponent,
-    PeliculasPosterGripComponent
+    PeliculasPosterGripComponent,
+    CastSlideshowComponent
   ],
   exports: [
     NavbarComponent,
     SlideshowComponent,
-    PeliculasPosterGripComponent
+    PeliculasPosterGripComponent,
+    CastSlideshowComponent
   ],
   imports: [
     CommonModule,
